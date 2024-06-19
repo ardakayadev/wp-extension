@@ -1,0 +1,68 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove text-decoration on links */
+a {
+  text-decoration: none;
+}
+
+/* Resetting some styles for consistency across browsers */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Remove the inheritance of text transform in Edge and Firefox */
+button,
+select {
+  text-transform: none;
+}
+
+/* Resetting font size for input, select, and textarea */
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+/* Resetting line height for select */
+select {
+  line-height: 1;
+}
+
+/* Style for images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
